@@ -1,7 +1,7 @@
-FROM alpine:builder as builder
+FROM alpine:3.6 as builder
 
 WORKDIR /var/build
-
+RUN apk add --no-cache musl-dev gcc make cmake pkgconf git libusb-dev g++
 RUN git clone https://github.com/rtlsdrblog/rtl-sdr-blog.git; \
     cd rtl-sdr-blog; \
     mkdir build; \
