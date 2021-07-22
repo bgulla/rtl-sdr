@@ -1,3 +1,5 @@
+[![Build Status](https://cloud.drone.io/api/badges/bgulla/rtl-sdr/status.svg)](https://cloud.drone.io/bgulla/rtl-sdr)
+
 # rtl-sdr
 
 A Docker container for building and executing rtl-sdr tools: http://sdr.osmocom.org/trac/wiki/rtl-sdr
