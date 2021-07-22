@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-RUN apk add --no-cache musl-dev gcc make cmake pkgconf git libusb-dev
+RUN apk add --no-cache musl-dev gcc make cmake pkgconf git libusb-dev g++
 
 WORKDIR /usr/local/
 RUN git clone git://git.osmocom.org/rtl-sdr.git
